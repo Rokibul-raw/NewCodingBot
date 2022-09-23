@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JXWxcLn9OuZ3jMckHF9aNx0ffOEB/XL9YrhE8OOuDJg=",
+  "Hash": "l6Qm+6OyjGZnQqg6/7YIlAR8owotG8QOOVhYiN2IibI=",
   "Source": "MyProjectAp",
   "BasePath": "_content/MyProjectAp",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\laptop source\\source\\repos\\MyProjectAp\\MyProjectAp\\wwwroot\\css\\Solar.css",
+      "SourceId": "MyProjectAp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\laptop source\\source\\repos\\MyProjectAp\\MyProjectAp\\wwwroot\\",
+      "BasePath": "_content/MyProjectAp",
+      "RelativePath": "css/Solar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Solar.css"
     },
     {
       "Identity": "C:\\Users\\laptop source\\source\\repos\\MyProjectAp\\MyProjectAp\\wwwroot\\favicon.ico",

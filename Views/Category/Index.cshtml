@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List Of Category</h1>
+
+<style>
+.mytable {
+  border-collapse: collapse;
+  
+}
+.mytable td{
+  
+  padding:10px;
+}
+.mytable th{
+ border-bottom: 1px solid #ccc;
+  padding:10px;
+}
+</style>
+
+<table class="mytable" style="width:100%">
+
+    <thead>
+        <tr>
+            <th>
+             Catagory Name
+            </th>
+            <th>
+              Display Order
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+          <tr>
+            <td>
+              @item.Name
+            </td>
+            <td>
+            @item.DisplayOrder
+            </td>
+          </tr>  
+        }
+        
+    </tbody>
+
+</table>
+
